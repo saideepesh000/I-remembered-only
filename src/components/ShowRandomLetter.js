@@ -72,7 +72,7 @@ const ShowRandomLetter = () => {
 		setScore(score => score + 5);
 		}
 		else{
-			alert(`your could only remember upto ${num-1} letters in a word`);
+			alert(`I remembererd only ${num-1} letters in a word`);
 			stopGame();
 		}
 		// if
