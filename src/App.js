@@ -63,11 +63,11 @@ const App = () => {
 	const check = () =>{
 		if(enter === final){
 		setScore(score => score + 1);
-		alert(`So far it's ${score+1} letters, cmon I can make it 🔥🔥`);
+		alert(`So far it's ${score+1} letter word, come on I can make it 🔥🔥`);
 		startGame();
 		}
 		else{
-			alert(`OHHHH, I remembererd only ${score+1} letters in a word`);
+			alert(`OHHHH 😞, I remembererd only ${score+1} letter word`);
 			stopGame();
 		}
 
