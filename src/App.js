@@ -27,7 +27,8 @@ const App = () => {
 }
 	
 	const onChange = (e) => {
-		setEnter(e.target.value);
+		let entered = (e.target.value).toLowerCase();
+		setEnter(entered);
 	}
 	let strGame;
 
@@ -64,6 +65,7 @@ const App = () => {
 		if(enter === final){
 		setScore(score => score + 1);
 		alert(`So far it's ${score+1} letter word, come on I can make it 🔥🔥`);
+		setEnter('');
 		startGame();
 		}
 		else{
@@ -77,7 +79,7 @@ const App = () => {
 	return(
 		<div className="show-random-letter">
 		<div className="score-word">
-		<p className="score">{score}</p>
+		<p className="score"><span className="span">Score:</span> {score}</p>
 		<p className="word">{word}</p>
 		</div>
 		<div className="start-stop">
