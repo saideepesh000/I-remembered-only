@@ -2,6 +2,17 @@
 
 A Simple Random-Word-Remembering Game W/ Increasing Frequency of Letters.
 
+# Motivation
+
+<p align="center">
+  <img src="https://github.com/saideepesh000/I-remembered-only/blob/master/public/iro.jpg?raw=true" alt="remember-meme" />
+</p>
+
+# Demo
+<p align="center">
+  <img src="https://github.com/saideepesh000/I-remembered-only/blob/master/public/iro.gif" alt="remember-meme" />
+</p>
+
 
 # Instructions To Play
 - As soon as you land in [here](https://iro.netlify.com), click on *START*.
