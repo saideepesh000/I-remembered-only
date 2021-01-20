@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-A Simple Random-Word-Remembering Game W/ Increasing Frequency of Letters.
+### A Simple Random-Word-Remembering Game W/ Increasing Frequency of Letters.
 
 # Motivation
 
