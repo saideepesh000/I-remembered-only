@@ -89,7 +89,7 @@ const App = () => {
 		<button className="btn btn-stop" onClick={stopGame}>Reset</button>
 		</div>
 		<div  className="check-group">
-		<input className="input" type="text" value={enter} onChange = {onChange} placeholder="Enter that letter/word"/>
+		<input className="input" type="text" value={enter} onChange = {onChange} placeholder="Enter that word"/>
 		<button className="btn btn-check" onClick={check}>Check for match</button>
 		</div>
 		</div>
